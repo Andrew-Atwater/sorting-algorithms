@@ -10,6 +10,6 @@ def sort(array):
         sorted.extend([value] * freq)
     return sorted
     
-def vf(original, sorted):
-    if sorted(original) and len(original) == len(sorted):
-        return(sorted)
+def vf(original, result):
+    if sorted(original) and len(original) == len(result):
+        return(result)

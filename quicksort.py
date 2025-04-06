@@ -9,7 +9,7 @@ def sort(array):
         return quicksort(left) + quicksort(middle) + quicksort(right)
     return quicksort(array)
     
-def vf(original, sorted):
-    if sorted(original) and len(original) == len(sorted):
-        return(sorted)
+def vf(original, result):
+    if sorted(original) and len(original) == len(result):
+        return(result)
      

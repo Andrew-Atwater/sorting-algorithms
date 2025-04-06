@@ -9,6 +9,6 @@ def sort(array):
                 min = j
         array[i], array[min] = array[min], array[i]
     return array
-def vf(original, sorted):
-    if sorted(original) and len(original) == len(sorted):
-        return(sorted)
+def vf(original, result):
+    if sorted(original) and len(original) == len(result):
+        return(result)

@@ -46,6 +46,7 @@ def benchmark():
     print_stats("AVG", lambda x: sum(x) // len(x))
 
 if __name__ == "__main__":
+    print("running...")
     run_verification()
     benchmark()
 
