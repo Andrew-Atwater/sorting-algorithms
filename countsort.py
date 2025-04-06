@@ -1,5 +1,5 @@
 class countsort:
-    def countsort(array):
+    def sort(array):
         if len(array) < 2:
             return array
         max = max(array)

@@ -1,5 +1,5 @@
 class selection:
-    def selection(array):
+    def sort(array):
         if len(array) < 2:
             return array
         x = len(array)
